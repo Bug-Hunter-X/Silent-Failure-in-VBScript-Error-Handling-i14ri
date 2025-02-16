@@ -1,0 +1,1 @@
+This repository demonstrates a subtle error in VBScript's error handling. The `MyFunction` function includes error handling, but it may not catch all errors. Some exceptions might not set `Err.Number`, leading to the code continuing execution without reporting the error. The solution shows a more robust approach.
